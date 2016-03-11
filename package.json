@@ -1,0 +1,24 @@
+{
+  "name": "scottakerman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-gh-pages": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skakerman/skakermanHomepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skakerman/skakermanHomepage/issues"
+  },
+  "homepage": "https://github.com/Skakerman/skakermanHomepage#readme"
+}
