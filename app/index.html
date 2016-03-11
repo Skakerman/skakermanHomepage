@@ -35,10 +35,19 @@
   <div ng-app="sraApp" layout="row" layout-align="start" layout-fill ng-cloak style="background-color: #3d81ee">
     <div layout-align="start end">
       <img ng-src="assets/Krampus_ava_winter2015.png" height="1000" />
+<!--
+      <picture layout-align="end">
+        <source srcset="assets/Krampus_ava_winter2015_512.png" media="(max-width: 768px)">
+        <source srcset="assets/Krampus_ava_winter2015.png">
+        <img srcset="assets/Krampus_ava_winter2015.png">
+      </picture>
+-->
     </div>
     <div layout="column" layout-align="center center" layout-fill>
-      <div class="linkIcons">
+      <div class="linkIcons" layout-align="center">
         Scott Akerman
+        <br/>
+        <p style="font-size: .75em"><i>Raleigh, NC</i></p>
       </div>
       <div layout="row" layout-sm="column" layout-padding layout-wrap>
         <a href="https://twitter.com/skakerman"><i class="fa fa-twitter linkIcons"></i></a>
