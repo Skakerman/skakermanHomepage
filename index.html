@@ -11,17 +11,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Angular Material requires Angular.js Libraries -->
+<!--
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-aria.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.min.js"></script>
+-->
 
   <!-- Angular Material Library -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.4/angular-material.min.js"></script>
+<!--  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.4/angular-material.min.js"></script>-->
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.4/angular-material.min.css">
 
   <!--  Material Icons -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.6.0/angular-material-icons.min.js"></script>-->
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -30,30 +32,30 @@
   <link rel="stylesheet" href="app.css">
 </head>
 
-<body style="background-color: #3d81ee">
+<body>
 
-  <div ng-app="sraApp" layout="row" layout-align="start end" layout-fill ng-cloak>
-    <div>
-      <img ng-src="assets/Krampus_ava_winter2015.png" height="1000"/>
+  <div id="main">
+    <div id="avatar">
+      <img src="assets/Krampus_ava_winter2015.png"/>
     </div>
-    <div layout="column" layout-align="center center" layout-fill>
-      <div class="linkIcons" layout-align="center">
+    <div id="bio">
+      <div id="bioText">
         Scott Akerman
         <br/>
         <p style="font-size: .75em"><i>Raleigh, NC</i></p>
       </div>
-      <div layout="row" layout-sm="column" layout-padding layout-wrap>
-        <a href="https://twitter.com/skakerman"><i class="fa fa-twitter linkIcons"></i></a>
-        <a href="https://github.com/Skakerman/"><i class="fa fa-github linkIcons"></i></a>
-        <a href="https://www.flickr.com/photos/sterlic/"><i class="fa fa-flickr linkIcons"></i></a>
-        <a href="https://www.instagram.com/skakerman/"><i class="fa fa-instagram linkIcons"></i></a>
-        <a href="https://skakerman.tumblr.com"><i class="fa fa-tumblr linkIcons"></i></a>
+      <div class="linkIcons">
+        <a href="https://twitter.com/skakerman"><i class="fa fa-twitter linkIcons"></i></a><br/>
+        <a href="https://github.com/Skakerman/"><i class="fa fa-github linkIcons"></i></a><br/>
+        <a href="https://www.flickr.com/photos/sterlic/"><i class="fa fa-flickr linkIcons"></i></a><br/>
+        <a href="https://www.instagram.com/skakerman/"><i class="fa fa-instagram linkIcons"></i></a><br/>
+        <a href="https://skakerman.tumblr.com"><i class="fa fa-tumblr linkIcons"></i></a><br/>
         <a href="http://thismovieis.click/#/"><i class="fa fa-ticket linkIcons"></i></a>
       </div>
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <!--  <script src="app.js"></script>-->
 
 </body>
 
