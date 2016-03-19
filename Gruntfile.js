@@ -7,7 +7,9 @@ module.exports = function (grunt) {
       options: {
         base: 'build'
       },
-      src: ['**/*']
+      firstTarget: {
+        src: ['**/*']
+      }
     },
 
     copy: {
