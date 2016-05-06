@@ -47,6 +47,7 @@ h2 {
   margin: auto;
 }
 #icons a {
+  display: block;
   float: left;
   margin: auto;
 }
