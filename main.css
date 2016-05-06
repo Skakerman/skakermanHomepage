@@ -61,6 +61,7 @@ h2 {
   clear: left;
 }
 #avatar {
+  z-index: -1;
   display: flex;
   flex: 1;
   align-items: flex-end;
