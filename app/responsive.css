@@ -1,41 +1,36 @@
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 615px) {
   #main {
     flex-direction: row;
   }
-  #avatar {
-    display: flex;
-    flex-grow: 0;
-    flex: 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 1;
-  }
   #bio {
     flex: 2;
-
     background-color: rgba(0, 0, 0, 0);
-    margin: 15% 0;
+    height: 100vh;
+    flex-direction: column;
   }
   #bioText {
     display: flex;
-    width: 100%;
+    margin: auto;
     justify-content: flex-end;
     flex-direction: column;
   }
+  #bioText:after {
+    content: '';
+    width: 120%;
+    align-self: center;
+    height: .2em;
+    background: #94bdff;
+    margin-top: 15px;
+    border-radius: 100px;
+  }
   #icons {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    font-size: 1.33em;
-    padding-top: 2%;
-    margin: 0 30%;
+    align-items: center;
+    font-size: 133%;
   }
   #icons a {
     margin: .33em .33em;
-  }
-  .row {
-    margin: 0;
-    justify-content: center;
   }
   h1 {
     font-size: 2.5em;
