@@ -36,7 +36,6 @@ h2 {
   padding: 2% 0;
   flex-direction: column;
   background-color: rgba(0, 0, 0, .2);
-  flex-shrink: 0;
 }
 
 #bioText {
@@ -48,10 +47,10 @@ h2 {
 
 #icons {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #icons a {
@@ -61,7 +60,7 @@ h2 {
 .linkIcons {
   color: #fff;
   font-size: 3em;
-  padding: .25em .5em;
+  padding: .25em .35em;
 }
 
 #avatar {

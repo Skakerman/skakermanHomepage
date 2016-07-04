@@ -1,12 +1,12 @@
-@media screen and (min-width: 615px) {
+@media screen and (min-width: 600px) {
   #main {
     flex-direction: row;
+    font-size: 2.75vh;
   }
   #bio {
     flex: 2;
     background-color: rgba(0, 0, 0, 0);
     height: 100vh;
-    flex-direction: column;
   }
   #bioText {
     display: flex;
@@ -16,18 +16,14 @@
   }
   #bioText:after {
     content: '';
-    width: 120%;
+    width: 100%;
     align-self: center;
     height: .2em;
     background: #94bdff;
     margin-top: 15px;
-    border-radius: 100px;
   }
   #icons {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 133%;
+    font-size: 110%;
   }
   #icons a {
     margin: .33em .33em;
